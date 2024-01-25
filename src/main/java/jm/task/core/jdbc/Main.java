@@ -11,10 +11,10 @@ public class Main {
 
         userService.dropUsersTable();           // 1) удаление таблицы
         userService.createUsersTable();         // 2) создание таблицы
-        userService.saveUser("'Ivan'", "'Ivanov'", (byte) 22);
-        userService.saveUser("'Элвис'", "'Гресли'", (byte) 25);
-        userService.saveUser("'Petya'", "'Gipopotam'", (byte) 22);
-        userService.saveUser("'Johny'", "'Tree'", (byte) 25);
+        userService.saveUser("Ivan", "Ivanov", (byte) 22);
+        userService.saveUser("Элвис", "Гресли", (byte) 25);
+        userService.saveUser("Petya", "Gipopotam", (byte) 22);
+        userService.saveUser("Johny", "Tree", (byte) 25);
         System.out.println(userService.getAllUsers());             // 3) вывод в консоль всех юзеров
 //        userService.cleanUsersTable();         // 4) удаление данных в таблице
 //        userService.dropUsersTable();          // 5) удаление таблицы
@@ -24,6 +24,6 @@ public class Main {
 }
 
 
-// реализуйте алгоритм здесь
+
 
 
